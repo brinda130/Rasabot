@@ -1,0 +1,27 @@
+-->Download anaconda navigator from google
+
+-->Open the anaconda prompt in the navigator
+
+
+-->Type the following commands in it:
+    1.conda create -n clgbot2 python=3.8
+    2.conda activate clgbot
+    3.conda activate clgbot2
+    4.pip install rasa
+    5.rasa --version
+    6.mkdir college_enquiry_bot1
+      cd college_enquiry_bot1
+    7.rasa init
+
+
+--> WHEN THIS COMES UP:PRESS ENTER
+    ? Please enter a path where the project will be created [default: current directory]
+
+    Then go on and aske questions and check
+-->if u want to stop it
+   '/stop'
+
+-->after making changes in the file everytime u have to give in the anaconda prompt:
+          rasa train
+
+DONE
