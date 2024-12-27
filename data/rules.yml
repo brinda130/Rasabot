@@ -411,8 +411,8 @@ rules:
     steps:
       - intent: cet_score_requirement
       - action: utter_cet_score_requirement
-      
+
   - rule: Handle MBA Placement Queries
     steps:
       - intent: mba_placement
-      - action: utter_mba_placement_info
+      - action: utter_mba_placement

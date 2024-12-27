@@ -77,8 +77,8 @@ intents:
   - information_science_engineering_admission
   - electronics_communication_engineering_admission
   - cet_score_requirement
-  - mba_placement_info
-  
+  - mba_placement
+
 responses:
   utter_admission_requirements:
     - text: "The admission requirements vary by program. For undergraduate programs, a completed application, transcripts, and standardized test scores are required. For postgraduate programs, relevant undergraduate degrees and qualifying exam scores are needed."
@@ -295,5 +295,5 @@ responses:
   utter_cet_score_requirement:
     - text: "The minimum CET score required for admission depends on the course and the category of the candidate. The details will be published on the official website after the CET results are announced."
   
-  utter_mba_placement_info:
+  utter_mba_placement:
     - text: "Sahyadri College's MBA placement process provides ample opportunities for students to secure positions in various domains such as marketing, finance, human resources, and operations. Over 100 companies visit the campus for recruitment, with top recruiters including HDFC Bank, ICICI Bank, Tata Consultancy Services (TCS), Wipro, and Accenture. The highest salary package offered is 12 LPA, and the average salary package is around 5 LPA."

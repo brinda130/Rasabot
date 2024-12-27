@@ -388,8 +388,8 @@ stories:
     steps:
       - intent: cet_score_requirement
       - action: utter_cet_score_requirement
-      
+
   - story: MBA Placement Query Story
     steps:
       - intent: mba_placement
-      - action: utter_mba_placement_info
+      - action: utter_mba_placement
