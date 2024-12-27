@@ -1,0 +1,41 @@
+version: "3.1"
+
+rules:
+
+- rule: Provide admission requirements when asked
+  steps:
+  - intent: admission_requirements
+  - action: utter_admission_requirements
+
+- rule: Explain the CSE admission process
+  steps:
+  - intent: cse_admission_process
+  - action: utter_cse_admission_process
+
+- rule: Provide information about management quota fees
+  steps:
+  - intent: management_quota_fees
+  - action: utter_management_quota_fees
+
+- rule: Explain the CET admission process
+  steps:
+  - intent: cet_admission_process
+  - action: utter_cet_admission_process
+
+- rule: Explain the COMEDK admission process
+  steps:
+  - intent: comedk_admission_process
+  - action: utter_comedk_admission_process
+
+- rule: List required documents for admission
+  steps:
+  - intent: required_documents
+  - action: utter_required_documents
+
+- rule: Provide scholarship information
+  steps:
+  - intent: scholarships
+  - action: utter_scholarships
+
+
+
